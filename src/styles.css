@@ -68,10 +68,7 @@ h6 {
 .content-container {
   padding: 160px 20px;
 }
-.content {
-  padding: 0;
-  text-align: center;
-}
+
 .content h1 {
   font-size: 54px;
   line-height: 70px;
