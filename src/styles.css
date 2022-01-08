@@ -25,6 +25,11 @@ h6 {
   font-weight: normal;
   color: black;
 }
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  font-weight: bold;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -118,7 +123,41 @@ nav li.active a {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
 
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 1400px) {
   .content-container h1 {
     font-size: 45px;
@@ -153,6 +192,9 @@ nav li.active a {
   }
 }
 @media (max-width: 992px) {
+  h4 {
+    font-size: 18px;
+  }
   .content {
     margin: 0;
   }
@@ -172,6 +214,9 @@ nav li.active a {
     font-size: 15px;
     line-height: 23px;
     padding: 14px 36px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
 @media (max-width: 767px) {
