@@ -27,12 +27,13 @@
       src="https://kit.fontawesome.com/5c10e22d0a.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta name="description" content="Take a look at Evgenia's projects" />
+    <title>Evgenia's Portfolio</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="/images/logo.png"
             class="logo d-none d-md-block"
@@ -45,10 +46,12 @@
           />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Evgenia">About</a></li>
+          <li class="active" title="Evgenia's work">
+            <a href="/work.html">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Evgenia">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -66,6 +69,14 @@
             />
             <h3 class="text-center">Kombucha Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://suspicious-wing-e386e9.netlify.app/"
+                class="btn btn-branding"
+              >
+                Launch project
+              </a>
+            </div>
           </div>
           <div class="col-md-6 mb-5">
             <img
@@ -77,6 +88,14 @@
             <p class="text-center text-muted">
               Built with HTML, CSS and JavaScript
             </p>
+            <div class="d-flex justify-content-center">
+              <a
+                href="https://musing-blackwell-1c8bd1.netlify.app/"
+                class="btn btn-branding"
+              >
+                Launch project
+              </a>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -88,6 +107,9 @@
             />
             <h3 class="text-center">Dictionary Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-branding"> Launch project </a>
+            </div>
           </div>
           <div class="col-md-6 mb-5">
             <img
@@ -97,13 +119,16 @@
             />
             <h3 class="text-center">Translation Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and React</p>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-branding-outline"> Coming Soon </a>
+            </div>
           </div>
         </div>
       </div>
       <footer>
-        <div class="contact-box d-flex justify-content-between mb-5">
+        <div class="contact-box d-none d-md-flex justify-content-between mb-5">
           <div>
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
@@ -118,18 +143,33 @@
         </div>
         <div class="social-links d-flex justify-content-center">
           <a
-            href="https://www.instagram.com/evgenia.ryazantseva/"
+            href="https://www.linkedin.com/in/evgeniya-ryazantseva-42577324/"
             target="_blank"
+            title="LinkedIn Profile"
           >
-            <i class="fab fa-instagram"></i
+            <i class="fab fa-linkedin"></i
           ></a>
-          <a href="https://github.com/eoryazantseva" target="_blank">
+          <a
+            href="https://github.com/eoryazantseva"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fab fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/ryazantseva/" target="_blank">
+          <a
+            href="https://www.facebook.com/ryazantseva/"
+            target="_blank"
+            title="Facebook Profile"
+          >
             <i class="fab fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Evgenia Ryazantseva, and is
+          <a href="https://github.com/eoryazantseva/my-portfolio-repository"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

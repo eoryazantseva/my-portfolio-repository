@@ -27,12 +27,16 @@
       src="https://kit.fontawesome.com/5c10e22d0a.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Evgenia is a front-end developer who is seeking new opportunities in front-end development"
+    />
+    <title>About Evgenia - Evgenia Ryazantseva</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="/images/logo.png"
             class="logo d-none d-md-block"
@@ -45,10 +49,12 @@
           />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Evgenia">About</a>
+          </li>
+          <li><a href="/work.html" title="Evgenia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Evgenia">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -56,29 +62,28 @@
       <div class="row">
         <div class="col-md-7 col-lg-7">
           <div class="content">
-            <h1 class="mb-4">Hi, I am Evgenia Riazantseva</h1>
-            <h2 class="mb-4">Frontend developer, based in Australia</h2>
+            <h1 class="mb-4">Hi, I am Evgenia Ryazantseva</h1>
+            <h2 class="mb-4">Front-end developer based in Australia</h2>
             <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-md-5 col-lg-5">
           <img
             src="/images/evgenia.jpg"
             class="img-fluid rounded hero-img"
-            alt=""
+            alt="Evgenia's photo"
           />
         </div>
       </div>
       <footer>
-        <div class="contact-box d-flex justify-content-between mb-5">
+        <div class="contact-box d-none d-md-flex justify-content-between mb-5">
           <div>
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
@@ -93,18 +98,33 @@
         </div>
         <div class="social-links d-flex justify-content-center">
           <a
-            href="https://www.instagram.com/evgenia.ryazantseva/"
+            href="https://www.linkedin.com/in/evgeniya-ryazantseva-42577324/"
             target="_blank"
+            title="LinkedIn Profile"
           >
-            <i class="fab fa-instagram"></i
+            <i class="fab fa-linkedin"></i
           ></a>
-          <a href="https://github.com/eoryazantseva" target="_blank">
+          <a
+            href="https://github.com/eoryazantseva"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fab fa-github"></i
           ></a>
-          <a href="https://www.facebook.com/ryazantseva/" target="_blank">
+          <a
+            href="https://www.facebook.com/ryazantseva/"
+            target="_blank"
+            title="Facebook Profile"
+          >
             <i class="fab fa-facebook"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          ✌️ This website was coded by Evgenia Ryazantseva, and is
+          <a href="https://github.com/eoryazantseva/my-portfolio-repository"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
